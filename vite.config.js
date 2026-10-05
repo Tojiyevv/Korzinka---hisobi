@@ -9,27 +9,27 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icon.svg'],
+      includeAssets: ['savat.png'],
       manifest: {
         name: "Anor Bog'i Pro",
         short_name: "Anor Bog'i",
         description: "Anor bog'i xarajat va daromadlarini boshqarish tizimi",
-        theme_color: '#10b981',
+        theme_color: '#81c3d7',
         background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/',
         icons: [
           {
-            src: '/icon.svg',
-            sizes: '192x192 512x512',
-            type: 'image/svg+xml',
+            src: '/savat.png',
+            sizes: '192x192',
+            type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/icon.svg',
+            src: '/savat.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'maskable'
           }
         ]
